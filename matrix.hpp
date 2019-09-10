@@ -5,11 +5,11 @@
 class matrix{
 	private{
 		int** matrix;
-		int row;
-		int clm;
-		int val;
+		int row, clm, val;
 	}
 	public{
+		int row = 10;
+		int clm = 10;
 		matrix();
 		matrix(int*,int*);
 
